@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: website-pinger
+    env: node
+    buildCommand: ""
+    startCommand: "node app.js"
+    envVars:
+      - key: PORT
+        value: "8080"
+      - key: PING_INTERVAL
+        value: "30000"

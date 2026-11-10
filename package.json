@@ -1,0 +1,11 @@
+{
+  "name": "website-pinger",
+  "version": "1.0.0",
+  "description": "Website status checker with real HTTP pings and user login",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "engines": { "node": ">=22" }
+}
